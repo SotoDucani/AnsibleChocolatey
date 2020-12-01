@@ -6,7 +6,7 @@
 
 - name: Register windows programdata env var
   win_shell: $env:ProgramData
-  register: ProgramData_out
+  register: programData_out
   changed_when: false
 
 - set_fact:
